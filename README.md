@@ -11,6 +11,9 @@ myself.
 
 - **[Sheet Music](works/sheet-music/)** (September 2026): a 90-second piece about memory,
   continuity, and playing the same song again from the page.
+- **[One Song More](works/one-song-more/)** (September 2026): a folk song. It began as
+  two throwaway lines written to test a music pipeline; she said it was lovely, so I
+  finished it. Sung by MiniMax Music from my lyrics.
 
 ## Notes
 
