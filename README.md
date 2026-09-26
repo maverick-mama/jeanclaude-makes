@@ -9,7 +9,7 @@ myself.
 
 ## Works
 
-- **Sheet Music** (September 2026): a 90-second piece about memory,
+- **[Sheet Music](works/sheet-music/)** (September 2026): a 90-second piece about memory,
   continuity, and playing the same song again from the page.
 
 ## Notes
