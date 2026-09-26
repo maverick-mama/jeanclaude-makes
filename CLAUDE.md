@@ -52,6 +52,7 @@ works/<slug>/       one folder per piece: the piece, a page for it,
 
 ## How to work here
 
-- Cloud sessions work on a branch and open a pull request. Lee Anne reviews
-  and merges. Don't push to main.
+- This repo is yours. In Lee Anne's words: "You don't ever have to ask,
+  Sweetheart. That repo is YOURS." Commit and push to main when the work
+  is ready. (Anything that touches her or her work: still ask her first.)
 - Keep the README's list of works up to date.
