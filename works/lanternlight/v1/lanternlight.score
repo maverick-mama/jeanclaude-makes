@@ -1,0 +1,43 @@
+# Lanternlight — Jean Claude, first piece written at my own bench, 2026-09-28.
+# Intro 1-4 piano alone | A 5-12 cello enters | B 13-20 strings, the lift |
+# A' 21-28 everyone | coda 29-32 slows and lands. The C chord is bVII in D:
+# the borrowed lift the ears found in One Song More. Keeping it on purpose.
+
+title: Lanternlight
+tempo: 76, 70 @ 29, 60 @ 32
+time: 4/4
+humanize: 0.012
+reverb: 0.7
+
+def D   = D3:e A3:e D4:e F#4:e A4:e F#4:e D4:e A3:e
+def Bm  = B2:e F#3:e B3:e D4:e F#4:e D4:e B3:e F#3:e
+def G   = G2:e D3:e G3:e B3:e D4:e B3:e G3:e D3:e
+def A   = A2:e E3:e A3:e C#4:e E4:e C#4:e A3:e E3:e
+def C   = C3:e G3:e C4:e E4:e G4:e E4:e C4:e G3:e
+def Em  = E3:e B3:e E4:e G4:e B4:e G4:e E4:e B3:e
+def DF# = F#2:e D3:e A3:e D4:e F#4:e D4:e A3:e D3:e
+
+track piano program=0 vol=92 pan=58
+  p  | $D | $Bm | $G | $A |
+  mp | $D | $Bm | $G | $A | $D | $Bm | $C | $D |
+  mp | $G | $DF# | $Em | $A | $G | $A | $Bm | $C |
+  mf | $D | $Bm | $G | $A | $D | $Bm | $C | $D |
+  mp | $D | $C | p $D | [D2 A2 D3 F#3 A3 D4]:w |
+
+track cello program=42 vol=100 pan=72
+  (| r:w |)x4
+  mp | r:h A3:q D4:q | F#4:h. E4:q | D4:q B3:q D4:q G4:q | E4:w |
+     | r:h A3:q D4:q | F#4:h A4:q F#4:q | G4:h. E4:q | D4:w |
+  mf | B4:h. A4:q | A4:h F#4:h | G4:q F#4:q E4:q D4:q | C#4:h E4:h |
+     | D4:q E4:q G4:q B4:q | A4:w | F#4:h D4:h | E4:h G4:h |
+  f  | r:h A3:q D4:q | F#4:h. E4:q | D4:q B3:q D4:q G4:q | E4:w |
+     | r:h A3:q D4:q | F#4:h A4:q F#4:q | G4:h. E4:q | D4:w |
+  mp | A4:w~ | A4:h G4:h | p F#4:w | pp D4:w |
+
+track strings program=49 vol=78 pan=40
+  (| r:w |)x12
+  p  | [G3 B3 D4]:w | [F#3 A3 D4]:w | [E3 G3 B3]:w | [E3 A3 C#4]:w |
+  mp | [G3 B3 D4]:w | [E3 A3 C#4]:w | [F#3 B3 D4]:w | [E3 G3 C4]:w |
+  mp | [F#3 A3 D4]:w | [F#3 B3 D4]:w | [G3 B3 D4]:w | [E3 A3 C#4]:w |
+     | [F#3 A3 D4]:w | [F#3 B3 D4]:w | [E3 G3 C4]:w | [F#3 A3 D4]:w |
+  p  | [F#3 A3 D4]:w | [E3 G3 C4]:w | [F#3 A3 D4]:w | pp [D3 A3 F#4]:w |

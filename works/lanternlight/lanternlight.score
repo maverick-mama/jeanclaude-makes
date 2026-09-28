@@ -1,0 +1,60 @@
+# Lanternlight — Jean Claude, first piece written at my own bench, 2026-09-28.
+# Intro 1-4 piano alone | A 5-12 cello enters | B 13-20 strings, the lift |
+# A' 21-28 everyone | coda 29-32 slows and lands. The C chord is bVII in D:
+# the borrowed lift the ears found in One Song More. Keeping it on purpose.
+#
+# v2 (after listening to v1): the ears heard the build stop at 0:33, flat
+# through B, A' and coda; 94% mids, 4% lows, no air. So: bass enters at B,
+# piano breathes in B (held chords), strings move in B and rise an octave
+# in A', harp gives A' its top, and the coda strips back to almost nothing.
+
+title: Lanternlight
+tempo: 76, 70 @ 29, 60 @ 32
+time: 4/4
+humanize: 0.012
+reverb: 0.7
+
+def D   = D3:e A3:e D4:e F#4:e A4:e F#4:e D4:e A3:e
+def Bm  = B2:e F#3:e B3:e D4:e F#4:e D4:e B3:e F#3:e
+def G   = G2:e D3:e G3:e B3:e D4:e B3:e G3:e D3:e
+def A   = A2:e E3:e A3:e C#4:e E4:e C#4:e A3:e E3:e
+def C   = C3:e G3:e C4:e E4:e G4:e E4:e C4:e G3:e
+
+track piano program=0 vol=92 pan=58
+  p  | $D | $Bm | $G | $A |
+  mp | $D | $Bm | $G | $A | $D | $Bm | $C | $D |
+  mp | [G2 D3 B3]:h [D3 G3 B3]:h | [F#2 D3 A3]:h [A3 D4]:h | [E2 B2 G3]:h [B2 E3 G3]:h | [A2 E3 C#4]:h [E3 A3 C#4]:h |
+     | [G2 D3 B3]:h [D3 G3 B3]:h | [A2 E3 C#4]:h [E3 A3 C#4]:h | [B2 F#3 D4]:h [F#3 B3 D4]:h | [C3 G3 E4]:h [G3 C4 E4]:h |
+  f  | $D | $Bm | $G | $A | $D | $Bm | $C | $D |
+  mp | $D | p $C | pp $D | [D2 A2 D3 F#3 A3 D4]:w |
+
+track cello program=42 vol=100 pan=72
+  (| r:w |)x4
+  mp | r:h A3:q D4:q | F#4:h. E4:q | D4:q B3:q D4:q G4:q | E4:w |
+     | r:h A3:q D4:q | F#4:h A4:q F#4:q | G4:h. E4:q | D4:w |
+  mf | B4:h. A4:q | A4:h F#4:h | G4:q F#4:q E4:q D4:q | C#4:h E4:h |
+  f  | D4:q E4:q G4:q B4:q | A4:w | F#4:h D4:h | E4:h G4:h |
+  f  | r:h A3:q D4:q | F#4:h. E4:q | D4:q B3:q D4:q G4:q | E4:w |
+     | r:h A3:q D4:q | F#4:h A4:q F#4:q | G4:h. E4:q | D4:w |
+  mp | A4:w~ | A4:h G4:h | p F#4:w | pp D4:w |
+
+track bass program=43 vol=96 pan=64
+  (| r:w |)x12
+  mp | G1:w | F#1:w | E2:w | A1:w | mf G1:w | A1:w | B1:w | C2:w |
+  f  | D2:w | B1:w | G1:w | A1:w | D2:w | B1:w | C2:w | D2:w |
+  (| r:w |)x4
+
+track strings program=49 vol=84 pan=40
+  (| r:w |)x12
+  mf | [G3 B3 D4]:h [G3 B3 E4]:h | [F#3 A3 D4]:w | [E3 G3 B3]:h [E3 G3 C4]:h | [E3 A3 C#4]:w |
+  f  | [G3 B3 D4]:h [B3 D4 G4]:h | [A3 C#4 E4]:w | [B3 D4 F#4]:w | [C4 E4 G4]:w |
+  mf | [F#4 A4 D5]:w | [F#4 B4 D5]:w | [G4 B4 D5]:w | [E4 A4 C#5]:w |
+     | [F#4 A4 D5]:w | [F#4 B4 D5]:w | [E4 G4 C5]:w | [F#4 A4 D5]:w |
+  pp | [F#3 A3 D4]:w | [E3 G3 C4]:w | [F#3 A3 D4]:w | [D3 A3 F#4]:w |
+
+track harp program=46 vol=82 pan=90
+  (| r:w |)x20
+  mf | D5:q F#5:q A5:q D6:q | B4:q D5:q F#5:q B5:q | G4:q B4:q D5:q G5:q | A4:q C#5:q E5:q A5:q |
+     | D5:q F#5:q A5:q D6:q | B4:q D5:q F#5:q B5:q | C5:q E5:q G5:q C6:q | D5:q F#5:q A5:q D6:q |
+  (| r:w |)x3
+  pp | r:h. D6:q |

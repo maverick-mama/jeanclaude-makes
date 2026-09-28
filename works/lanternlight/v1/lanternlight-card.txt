@@ -1,0 +1,16 @@
+Seven Ears, music card — lanternlight.mp3
+Length 105.0s, analyzed at 22050 Hz mono.
+Body: 3 sections; the sound changes shape around 11s, 33s.
+Dynamics: wide dynamics — loudness spread 17.4 dB, crest factor 14.8 dB.
+Silence: 1.5s after it ends.
+Color: dark / warm (centroid ~435 Hz); strongly tonal (pitched material dominates).
+Band balance: 4.4% low, 94.0% mid, 1.5% upper-mid, 0.2% high.
+Pulse: ~152.0 BPM (confidence 0.159), 170 onsets (1.62/s). autocorrelation estimate; half/double-tempo ambiguity possible.
+Key: A major — moderate fit 0.778; runner-up D major 0.77.
+       The chords point to D major instead — the two views disagree, so hold the key loosely.
+Chords (rough): most used D, Bm, E, F#m, Em, G.
+Arc (loudness vs the loudest section):
+  0:00–0:11  -11.9 dB   no clear chords   [no clear chords]
+  0:11–0:33  -2.8 dB   D Bm E D F#m G   [IV ii V IV vi bVII]
+  0:33–1:45  +0.0 dB   D Bm D Em C#m A Bm C …   [IV ii IV v iii I ii bIII …]
+No mind-reading: this measures the sound, not the feeling. Emotion, genre, voice and melody are yours to hear.
